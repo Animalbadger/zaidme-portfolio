@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zaid — public projects</title>
+  <meta name="description" content="Public projects by Zaid (@zaidme) in Toronto: pygame games, hackathon apps, and small web tools.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@380;500;640&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to projects</a>
+
+  <header class="top">
+    <a class="brand" href="#top">zaidme</a>
+    <nav class="top-nav" aria-label="Page">
+      <a href="#work">Work</a>
+      <a href="https://github.com/zaidme" rel="noreferrer">GitHub</a>
+      <a href="https://user-feed-discord.vercel.app/" rel="noreferrer">Send a note</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="name">
+      <div class="hero-copy">
+        <p class="kicker"><span class="mark" aria-hidden="true"></span>Toronto</p>
+        <h1 id="name">Zaid</h1>
+        <p class="lede">
+          Public projects from <a href="https://github.com/zaidme">github.com/zaidme</a>:
+          a pygame runner, hackathon builds, and small web tools.
+        </p>
+      </div>
+      <dl class="facts">
+        <div>
+          <dt>GitHub</dt>
+          <dd><a href="https://github.com/zaidme">@zaidme</a></dd>
+        </div>
+        <div>
+          <dt>Location</dt>
+          <dd>Toronto</dd>
+        </div>
+        <div>
+          <dt>Company on GitHub</dt>
+          <dd>Simpli Events</dd>
+        </div>
+        <div>
+          <dt>On this page</dt>
+          <dd><span id="project-count">17</span> public repositories</dd>
+        </div>
+      </dl>
+      <img
+        class="avatar"
+        src="https://avatars.githubusercontent.com/u/66367657?v=4"
+        alt="GitHub avatar for Zaid"
+        width="96"
+        height="96"
+      >
+    </section>
+
+    <section id="work" class="work" aria-labelledby="work-title">
+      <div class="work-head">
+        <h2 id="work-title">Work</h2>
+        <div class="filters" role="toolbar" aria-label="Filter by language">
+          <button type="button" class="chip is-active" data-filter="All" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-filter="Python" aria-pressed="false">Python</button>
+          <button type="button" class="chip" data-filter="TypeScript" aria-pressed="false">TypeScript</button>
+          <button type="button" class="chip" data-filter="JavaScript" aria-pressed="false">JavaScript</button>
+          <button type="button" class="chip" data-filter="Java" aria-pressed="false">Java</button>
+          <button type="button" class="chip" data-filter="C" aria-pressed="false">C</button>
+        </div>
+      </div>
+      <p class="filter-status" id="filter-status" aria-live="polite">Showing all projects.</p>
+
+      <div class="grid" id="grid">
+        <article class="card feature" data-langs="Python TypeScript">
+          <p class="meta"><span>2024</span><span>Python · TypeScript</span></p>
+          <h3>Uncle Math</h3>
+          <p>CTRL-HACK-DEL 2024. Converts math problems into animated video solutions with the Claude API and Manim.</p>
+          <p class="links"><a href="https://github.com/zaidme/uncle-math">Source</a></p>
+        </article>
+
+        <article class="card feature" data-langs="Python">
+          <p class="meta"><span>2023</span><span>Python</span></p>
+          <h3>JoJo Run</h3>
+          <p>Endless runner with JoJo-themed visuals. Object-oriented game built with pygame. A pixel-art tool in another repo made the sprites.</p>
+          <p class="links">
+            <a href="https://jojo-run-pygame.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/jojo-run-pygame">Source</a>
+          </p>
+        </article>
+
+        <article class="card feature" data-langs="TypeScript">
+          <p class="meta"><span>2025</span><span>TypeScript</span></p>
+          <h3>AI Black Market</h3>
+          <p>UofT Hacks 12 project. Next.js app.</p>
+          <p class="links">
+            <a href="https://ai-black-market.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/ai-black-market">Source</a>
+          </p>
+        </article>
+
+        <article class="card feature" data-langs="TypeScript">
+          <p class="meta"><span>2024</span><span>TypeScript</span></p>
+          <h3>Masjid Near Me</h3>
+          <p>buildspace s5. Travel planner that finds masjids in the community.</p>
+          <p class="links">
+            <a href="https://masjid-near-me.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/masjid-near-me">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="Python">
+          <p class="meta"><span>2023</span><span>Python</span></p>
+          <h3>Pixel Art</h3>
+          <p>Pixel-art maker used to make the JoJo Run visuals. Streamlit, NumPy, OpenCV, and Pillow.</p>
+          <p class="links">
+            <a href="https://mosaic-zaid.streamlit.app/">Live</a>
+            <a href="https://github.com/zaidme/pixel-art">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="TypeScript">
+          <p class="meta"><span>2024</span><span>TypeScript</span></p>
+          <h3>User Feed</h3>
+          <p>Form that pings Discord with the information you submit.</p>
+          <p class="links">
+            <a href="https://user-feed-discord.vercel.app/">Live</a>
+            <a href="https://github.com/zaidme/user-feed-discord">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="TypeScript">
+          <p class="meta"><span>2023</span><span>TypeScript</span></p>
+          <h3>Pokédex Viewer</h3>
+          <p>Next.js viewer for the PokéAPI.</p>
+          <p class="links">
+            <a href="https://pokedex-viewer-poke-api.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/pokedex-viewer-PokeAPI">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="C">
+          <p class="meta"><span>2024</span><span>C</span></p>
+          <h3>Learning C</h3>
+          <p>Book management system for practicing memory allocation, described in the repo as a mini Amazon.</p>
+          <p class="links"><a href="https://github.com/zaidme/learning-c">Source</a></p>
+        </article>
+
+        <article class="card" data-langs="Java">
+          <p class="meta"><span>2023</span><span>Java</span></p>
+          <h3>Romeo and Juliet</h3>
+          <p>A playwright client writes a play by communicating with two single-threaded servers, Romeo and Juliet.</p>
+          <p class="links"><a href="https://github.com/zaidme/Romeo-and-Juliet">Source</a></p>
+        </article>
+
+        <article class="card" data-langs="JavaScript">
+          <p class="meta"><span>2023</span><span>JavaScript</span></p>
+          <h3>FIFA Select</h3>
+          <p>The select-sides screen from FIFA, built as a React component.</p>
+          <p class="links">
+            <a href="https://select-all-t4qj.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/react-fifa-component">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="JavaScript">
+          <p class="meta"><span>2023</span><span>JavaScript</span></p>
+          <h3>Parent Checklist</h3>
+          <p>A React exercise.</p>
+          <p class="links">
+            <a href="https://parent-check.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/react-parent-checklist">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="JavaScript">
+          <p class="meta"><span>2023</span><span>JavaScript</span></p>
+          <h3>React Table</h3>
+          <p>A React exercise.</p>
+          <p class="links">
+            <a href="https://react-table-pink.vercel.app">Live</a>
+            <a href="https://github.com/zaidme/react-table">Source</a>
+          </p>
+        </article>
+
+        <article class="card" data-langs="Python">
+          <p class="meta"><span>2023</span><span>Python</span></p>
+          <h3>Sierpinski Triangle</h3>
+          <p>Recursion exercise visualized with Python’s turtle graphics library.</p>
+          <p class="links"><a href="https://github.com/zaidme/sierpinski-triangle">Source</a></p>
+        </article>
+
+        <article class="card" data-langs="Python">
+          <p class="meta"><span>2023</span><span>Python</span></p>
+          <h3>Advent of Code</h3>
+          <p>Advent of Code puzzles. The repository description mentions practicing Rust; the published code is Python.</p>
+          <p class="links"><a href="https://github.com/zaidme/advent-of-code">Source</a></p>
+        </article>
+
+        <article class="card" data-langs="Jupyter">
+          <p class="meta"><span>2024</span><span>Jupyter</span></p>
+          <h3>qsite</h3>
+          <p>Jupyter notebook repository. No description is published on GitHub.</p>
+          <p class="links"><a href="https://github.com/zaidme/qsite">Source</a></p>
+        </article>
+
+        <article class="card" data-langs="JavaScript">
+          <p class="meta"><span>2024</span><span>JavaScript</span></p>
+          <h3>API Basics</h3>
+          <p>Firebase exercise repository. No description is published on GitHub.</p>
+          <p class="links"><a href="https://github.com/zaidme/api-basics-firebase">Source</a></p>
+        </article>
+
+        <article class="card" data-langs="Course">
+          <p class="meta"><span>2024</span><span>Course</span></p>
+          <h3>Orbit Project 0</h3>
+          <p>Group project for 1012.</p>
+          <p class="links"><a href="https://github.com/zaidme/orbit-project-0">Source</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Facts on this page come from the public GitHub profile and repository descriptions for <a href="https://github.com/zaidme">zaidme</a>.</p>
+    <p><a href="https://user-feed-discord.vercel.app/">Send a note</a> uses Zaid’s own Discord form.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
